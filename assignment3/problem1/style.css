@@ -1,0 +1,86 @@
+body {
+  background-image: url(./assets/background.jpg);
+  height: 100%;
+}
+
+.nav-header {
+  padding-top: 50%;
+}
+
+.nav-header button {
+  color: white;
+  background-color: rgb(0, 132, 255);
+  border-color: rgb(0, 132, 255);
+  border-style: none;
+}
+
+.buttons-area {
+  margin: 0%;
+  background-color: rgb(0, 132, 255);
+  width: 75%;
+}
+
+.image-area {
+  text-align: center;
+}
+
+.image-area img {
+  width: 80%;
+  height: 100%;
+  border-top-style: solid;
+  border-top-color: blue;
+  border-left-style: solid;
+  border-left-color: blue;
+  border-bottom-style: solid;
+  border-bottom-color: red;
+  border-right-style: solid;
+  border-right-color: red;
+}
+
+.subtitle {
+  background-color: white;
+}
+
+.sub-content {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-left-color: red;
+  border-right-color: red;
+}
+
+.sub-content p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.star-wars {
+  border: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: red;
+}
+
+.blue-p {
+  background: linear-gradient(25deg, blue 50%, red);
+}
+
+footer {
+  margin-top: 3%;
+  text-align: center;
+  font-size: 30px;
+  border-top-style: solid;
+  border-top-color: white;
+}
+
+footer button {
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: "JosefinSans-VariableFont_wght";
+    src: url(assets/JosefinSans-VariableFont_wght.ttf);
+}
+
+p {
+    font-family: JosefinSans-VariableFont_wght;
+}
