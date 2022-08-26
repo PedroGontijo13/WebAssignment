@@ -1,0 +1,155 @@
+.item {
+  background-image: url(./assets/background.jpg);
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.nav-header {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+.nav-header button {
+  color: white;
+  background-color: rgb(0, 132, 255);
+  border-color: rgb(0, 132, 255);
+  border-style: none;
+}
+
+.buttons-area {
+  margin: 0%;
+  background-color: rgb(0, 132, 255);
+  width: 75%;
+}
+
+.table-area {
+  background-color: rgb(0, 110, 255);
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: white;
+}
+
+.id {
+  background-color: black;
+  color: white;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  width: 50%;
+  border-color: rgb(183, 3, 183);
+  text-align: center;
+  background-image: linear-gradient(to right, white 50%, purple) !important;
+}
+
+.subtitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  width: 40%;
+  color: white;
+  border-color: rgb(3, 51, 183);
+  text-align: center;
+  background-image: linear-gradient(
+    to left,
+    white 1%,
+    rgb(0, 60, 128)
+  ) !important;
+}
+
+.back-1 {
+  background-image: url(./assets/back1.png);
+  padding: 10px;
+}
+
+.back-2 {
+  background-image: url(./assets/back2.png);
+  padding: 10px;
+}
+
+.back-3 {
+  background-image: url(./assets/back3.png);
+  padding: 10px;
+}
+
+.back-4 {
+  background-image: url(./assets/back4.png);
+  padding: 10px;
+}
+
+.back-5 {
+  background-image: url(./assets/back5.png);
+  padding: 10px;
+}
+
+.image-area {
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.text-content {
+  align-items: flex-end;
+}
+
+.image-area img {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  height: 100%;
+  width: 100%;
+}
+
+.list-area {
+  border-style: solid;
+  border-color: rgb(2, 154, 255);
+  background-color: rgb(173, 211, 255);
+}
+
+li {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(2, 154, 255);
+  background-color: white;
+  border-width: 0.5px;
+  margin: 5px;
+}
+
+li p {
+  padding: 0px 5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+}
+
+footer a {
+  color: rgb(109, 107, 107);
+}
+
+footer button {
+  width: 15%;
+  border-style: none;
+  background-color: aquamarine;
+  margin-top: 10px;
+}
