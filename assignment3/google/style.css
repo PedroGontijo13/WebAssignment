@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  margin: 1%;
+}
+
+main {
+  background-color: #ffffff; /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  border-radius: 30px;
+}
+
+body {
+  padding: 4%;
+  background-image: url(./assets/background.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+header {
+  margin-right: 40px;
+}
+
+.nav-header {
+  border-radius: 10px;
+  width: 300px;
+  border: 1px solid rgb(0, 47, 255);
+  height: 10%;
+  background-color: rgb(0, 132, 255);
+}
+
+.nav-header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10%;
+}
+
+.center {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+#timeline {
+  border-style: solid;
+  width: 50%;
+  border-color: rgb(255, 255, 255);
+  margin-bottom: -1%;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(252, 147, 147) 30%,
+    rgb(238, 28, 28)
+  ) !important;
+}
+
+.title {
+  border-style: solid;
+  width: 25%;
+  border-color: rgb(255, 255, 255);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(252, 147, 147) 30%,
+    rgb(238, 28, 28)
+  ) !important;
+}
+
+.text-content {
+  padding: 2%;
+}
+
+.image-area {
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.image-area img {
+  border-style: solid;
+  border-color: yellow;
+  border-width: thin;
+  box-shadow: 0 3px 10px rgb(1 1 1 / 0.5);
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#time {
+  width: 20%;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+}
+
+footer a {
+  color: rgb(47, 0, 255);
+}
+
+.table-area {
+  width: 100%;
+  border: 1.5px solid red;
+  background-color: rgba(81, 158, 172, 0.199);
+}
+
+table {
+  margin: 1%;
+  width: 95%;
+}
+
+td {
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid;
+}
+
+footer button {
+  width: 15%;
+  border-style: none;
+  background-color: rgba(127, 255, 212, 0);
+  margin-top: 10px;
+}
+
+.flex-area {
+  display: flex;
+}
