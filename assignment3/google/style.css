@@ -59,6 +59,20 @@ h1 {
   font-family: DynaPuff-VariableFont;
 }
 
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(assets/Roboto-Regular.ttf);
+}
+
+p {
+  font-family: Roboto-Regular;
+}
+
+.back-1 {
+  background-image: url(./assets/back1.png);
+  padding: 10px;
+}
+
 #timeline {
   border-style: solid;
   width: 50%;
