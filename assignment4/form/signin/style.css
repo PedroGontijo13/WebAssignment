@@ -1,0 +1,109 @@
+.title {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 75%;
+}
+
+.center2 {
+  margin: auto;
+  width: 95%;
+}
+
+.welcome-area {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  background-color: rgb(0, 225, 255);
+  background-image: linear-gradient(
+    to right,
+    rgb(19, 205, 230),
+    rgb(1, 171, 184)
+  );
+  width: 100%;
+  padding: 100px;
+}
+
+.welcome-area,
+h1 p,
+button {
+  color: #fff;
+}
+
+.welcome-area button,
+p {
+  padding: 0px 25px;
+}
+
+.welcome-area button,
+p {
+  padding: 0px 25px;
+}
+
+.welcome-area button {
+  margin-top: 15px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: rgba(0, 225, 255, 0);
+}
+
+form {
+  display: inline-grid;
+}
+
+.form-area {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  width: 100%;
+  padding: 100px;
+}
+
+.form-area,
+p h1 button {
+  color: rgb(0, 0, 0) !important;
+}
+
+.form-area button {
+  margin-top: 15px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: rgb(0, 225, 255);
+}
+
+.flex-container {
+  box-shadow: 10px 10px 8px #e2e2e2;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 70% !important;
+  border: 1px solid rgb(0, 225, 255);
+  display: flex;
+}
+
+input {
+  border: 0px;
+  padding: 10px 20px;
+  background-color: rgba(128, 128, 128, 0.205);
+  margin-top: 10px;
+}
+
+footer {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+}
