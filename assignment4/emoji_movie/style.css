@@ -1,0 +1,173 @@
+body {
+  background-color: aliceblue;
+}
+
+.content-area {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  border: 1px solid rgb(255, 208, 0);
+  border-radius: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(255, 208, 0);
+}
+
+.header-area nav {
+  height: 60px;
+  margin-top: 30px;
+}
+
+.header-area ul {
+  width: 100%;
+  list-style-type: none;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.header-area li {
+  font-family: FuturaHandwritten;
+  color: white;
+  padding: 22px 3px;
+  display: inline;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: white;
+  margin: 1px;
+}
+
+#name1 {
+  width: 15%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+#name2 {
+  width: 20%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+#name3 {
+  width: 10%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+#name4 {
+  width: 15%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+#name5 {
+  width: 27%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+#name6 {
+  width: 22%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+.list-area {
+  margin: auto !important;
+  width: 88% !important;
+}
+
+.img-area {
+  margin: auto !important;
+  width: 50% !important;
+}
+
+.img-area-fav {
+  margin: auto !important;
+  width: 88% !important;
+}
+
+.text-area {
+  padding: 0px 30px;
+}
+
+@font-face {
+  font-family: "FuturaHandwritten";
+  src: url(assets/FuturaHandwritten.ttf);
+  font-style: normal;
+  font-weight: 60;
+}
+
+@font-face {
+  font-family: "Mabook";
+  src: url(assets/Mabook.ttf);
+  font-style: normal;
+  font-weight: 10;
+}
+
+@font-face {
+  font-family: "TypeMachine";
+  src: url(assets/TypeMachine.ttf);
+  font-style: normal;
+  font-weight: 50;
+}
+
+.content-area h1 {
+  font-family: TypeMachine;
+  text-shadow: 2px 2px rgba(255, 238, 0, 0.685);
+  color: rgb(255, 208, 0);
+}
+
+.content-area h2 {
+  text-shadow: 2px 2px rgb(255, 208, 0);
+  padding: 8px;
+  font-family: Mabook;
+}
+
+.list-area {
+  font-family: TypeMachine;
+}
+
+p {
+  font-family: FuturaHandwritten !important;
+}
+
+footer {
+  margin-top: 50px;
+  border-top-width: 2px;
+  border-top-style: dotted;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(255, 208, 0);
+}
+
+footer a {
+  color: rgb(255, 208, 0);
+}
+
+footer button {
+  background-color: white;
+  border-style: none;
+  margin-top: 10px;
+}
