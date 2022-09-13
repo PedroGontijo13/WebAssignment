@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  width: 1440px;
+  height: 760px;
+  left: 0px;
+  top: 0px;
+  background-image: url(./assets/back1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex !important;
+}
+
+nav li {
+  margin: 40px;
+  width: 100%;
+  height: 100%;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #ffffff;
+}
+
+header img {
+  position: absolute;
+  width: 481px;
+  height: 270px;
+  left: 100px;
+  top: 220px;
+}
+
+.biography-area {
+  display: inline-flex;
+}
+
+.bio-content {
+  width: 593px;
+  height: 288px;
+}
+
+.content-area p {
+  position: absolute;
+  height: 288px;
+  width: 593px;
+  left: 739px;
+  top: 1103px;
+}
+
+.content-area p {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.publication-area {
+  position: absolute;
+  width: 332px;
+  height: 83px;
+  left: 88px;
+  top: 1804px;
+
+  background: #ffffff;
+}
+
+.publication-title {
+  height: 42px;
+  width: 313px;
+  left: 90px;
+  top: 1826px;
+  font-family: Roboto;
+  text-align: center !important;
+}
+
+h2 {
+  padding: 20px 2px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e40f29;
+}
+
+.publication {
+  position: absolute;
+  height: 767px;
+  width: 1435px;
+  left: 5px;
+  top: 1646px;
+  border-radius: 0px;
+  background-color: black;
+  background-image: url(./assets/spiderman_wallpaper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.biography-area h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #416fbf;
+  position: absolute;
+  height: 42px;
+  width: 164px;
+  left: 739px;
+  top: 1015px;
+}
+
+.biography-area img {
+  position: absolute;
+  width: 512px;
+  height: 664px;
+  left: 127px;
+  top: 871px;
+}
+
+.content-publication {
+  position: absolute;
+  height: 96px;
+  width: 664px;
+  left: 88px;
+  top: 1933px;
+}
+
+.content-publication p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.content-publication2 {
+  position: absolute;
+  height: 192px;
+  width: 687px;
+  left: 88px;
+  top: 2034px;
+}
+
+.content-publication2 p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.personality {
+  position: absolute;
+  height: 42px;
+  width: 382px;
+  left: 90px;
+  top: 2502px;
+}
+
+.personality h1 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #416fbf;
+}
+
+.content-personality {
+  position: absolute;
+  height: 98px;
+  width: 1254px;
+  left: 88px;
+  top: 2590px;
+}
+
+.personality-paragraph {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content-personality2 {
+  position: absolute;
+  height: 74px;
+  width: 1235px;
+  left: 122px;
+  top: 2695px;
+}
+
+.content-personality3 {
+  position: absolute;
+  height: 25px;
+  width: 973px;
+  left: 88px;
+  top: 2776px;
+}
+
+.content-personality4 {
+  position: absolute;
+  height: 119px;
+  width: 1230px;
+  left: 122px;
+  top: 2808px;
+}
+
+.powers {
+  position: absolute;
+  height: 42px;
+  width: 492px;
+  left: 79px;
+  top: 3102px;
+  border-radius: nullpx;
+}
+
+.powers h1 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #416fbf;
+}
+
+.powers-content {
+  position: absolute;
+  height: 312px;
+  width: 695px;
+  left: 88px;
+  top: 3190px;
+  border-radius: nullpx;
+}
+
+.powers-paragraph {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.image-powers {
+  position: absolute;
+  width: 512px;
+  height: 527.28px;
+  left: 801px;
+  top: 3038px;
+}
+
+.supporting {
+  position: absolute;
+  width: 1435px;
+  height: 564px;
+  top: 3692px;
+
+  background-image: url(./assets/background_spider3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.supporting-box {
+  position: absolute;
+  width: 332px;
+  height: 83px;
+  left: 626px;
+  top: 3757px;
+  color: #e40f29;
+  background: #ffffff;
+}
+
+.supporting-title {
+  position: absolute;
+  width: 258px;
+  height: 42px;
+  left: 663px;
+  top: 3777px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #e40f29;
+}
+
+.supporting-content {
+  position: absolute;
+  height: 288px;
+  width: 726px;
+  left: 626px;
+  top: 3880px;
+}
+
+.supporting-content p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
