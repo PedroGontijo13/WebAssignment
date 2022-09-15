@@ -211,7 +211,8 @@ h2 {
 
 .powers-skills {
   padding: 0px 100px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .powers-skills-content {
@@ -225,6 +226,7 @@ h2 {
 }
 
 .powers h1 {
+  margin: 100px;
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
@@ -251,6 +253,8 @@ h2 {
 }
 
 .image-powers {
+  display: flex;
+  justify-content: center;
   margin-left: 2%;
   width: 50%;
   height: 527.28px;
@@ -295,7 +299,7 @@ h2 {
 }
 
 .supporting-content {
-  margin-left: 50%;
+  margin-left: 60%;
 }
 
 .supporting-content p {
