@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(./assets/background.jpeg);
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px 5%;
+}
+
+.nav-items {
+  text-align: center;
+  margin: 0px 5%;
+}
+
+.nav-items ul {
+  display: flex;
+}
+
+.nav-items li {
+  list-style: none;
+  flex-grow: 1;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+li {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+.nav-items li:last-child {
+  background-color: #479bbc;
+  width: 5%;
+  padding: 2%;
+}
+
+.content-area {
+  margin-top: 150px;
+}
+
+.content-area h1 {
+  color: #ffffff;
+  font-family: Raanana;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 89px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.sub-conent-area {
+  margin-top: 2%;
+}
+
+.sub-conent-area p {
+  color: #ffffff;
+  font-family: Raanana;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.left_title_area {
+  margin-top: 140px;
+  margin-left: 90px;
+}
+
+.left_title_area h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+}
+
+.explain-area {
+  margin: 30px 90px;
+}
+
+.explain-area p {
+  margin-top: 45px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+}
+
+.center-title h2 {
+  margin: 110px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+}
+
+.center_image_area {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.ocean_and_sea {
+  position: relative;
+}
+
+.ocean_and_sea_image_area {
+  margin-top: 160px;
+  margin-left: 145px;
+}
+
+.ocean_and_sea_title_area {
+  position: absolute;
+  top: 200px;
+  left: 670px;
+}
+.ocean_and_sea_title_area h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+}
+
+.ocean_and_sea_explain_area {
+  position: absolute;
+  top: 300px;
+  left: 670px;
+  margin-right: 90px;
+}
+
+.ocean_and_sea_explain_area p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+}
+
+.etymology {
+  display: flex;
+  height: 550px;
+  margin-top: 135px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+.etymology-content-area {
+  padding-top: 120px;
+}
+
+.etymology-content-area {
+  width: 80%;
+}
+
+.etymology-content-area h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+}
+
+.etymology_explain_area {
+  margin-top: 45px;
+  width: 630px;
+  padding-bottom: 100px;
+}
+
+.etymology_explain_area p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+}
+
+.etymology_image_area {
+  margin-top: 5%;
+  padding: 0px 5%;
+}
+
+.oceanic_title_area {
+  margin-left: 90px;
+  margin-top: 300px;
+}
+
+.oceanic_title_area h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+}
+
+.oceanic_table_area {
+  margin-top: 90px;
+}
+
+.oceanic_table_area table {
+  margin: auto;
+  border-spacing: 6px;
+}
+
+.oceanic_table_area table th {
+  color: #ffffff;
+  background-color: #468ca2;
+  border: 1px solid #737677;
+  padding: 10px 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.oceanic_table_area table td {
+  background-color: #ffffff;
+  border: 1px solid #737677;
+  text-align: center;
+  padding: 10px 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.refrences_items_area {
+  margin-top: 35px;
+}
+
+.refrences_items_area ul {
+  margin-left: 50px;
+}
+
+.refrences_items_area li {
+  padding-left: -40px;
+  list-style: none;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 20px;
+  line-height: 198%;
+}
