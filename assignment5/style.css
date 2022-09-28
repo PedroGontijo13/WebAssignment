@@ -19,6 +19,10 @@ li {
   text-align: left;
 }
 
+header {
+  margin-bottom: 22px;
+}
+
 .nav-content {
   margin: auto;
   text-align: center;
@@ -43,10 +47,10 @@ li {
 }
 
 .img-area {
-  background-image: url(./assets/image1.png); /* The image used */
+  background-image: url(./assets/image1.png);
   height: 798px;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -56,8 +60,11 @@ li {
 
 .card {
   box-sizing: border-box;
+  position: absolute;
   width: 573px;
   height: 303px;
+  left: 147px;
+  top: 842px;
   background: #f5f4f2 !important;
   border: 7px solid #ffffff;
 }
@@ -150,6 +157,8 @@ li {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
   background: #f5f4f2;
 }
 
@@ -165,4 +174,9 @@ footer p {
 .text-footer {
   margin: auto;
   width: 50%;
+}
+
+.content-footer {
+  padding: 22px 0px;
+  display: flex;
 }
