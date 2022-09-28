@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  display: flex !important;
+}
+
+li {
+  margin: auto;
+  list-style: none;
+  font-family: Bodoni 72;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.nav-content {
+  margin: auto;
+  text-align: center;
+}
+
+.nav-content h2 {
+  font-family: Bodoni 72;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.nav-content h6 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+.img-area {
+  background-image: url(./assets/image1.png); /* The image used */
+  height: 798px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.card-area {
+  padding: 50% 15%;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 573px;
+  height: 303px;
+  background: #f5f4f2 !important;
+  border: 7px solid #ffffff;
+}
+
+.card p {
+  margin-top: 2%;
+  padding: 3%;
+  font-family: Bodoni 72;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.card img {
+  padding: 3%;
+}
+
+.card h3 {
+  padding: 3%;
+  font-family: Bodoni 72;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 71px;
+  letter-spacing: 0.08em;
+  text-align: left;
+}
+
+.content-2 {
+  display: flex;
+  margin-top: 30%;
+}
+
+.content-2 h1 {
+  font-family: Bodoni 72;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+.content-2 p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text-area {
+  margin: 8%;
+}
+
+.text-area h1 {
+  margin: 5% 0%;
+}
+
+.text-area p {
+  margin: 2%;
+}
+
+.img-area2 {
+  text-align: center;
+  width: 50%;
+}
+
+.img-area2 img {
+  padding: 3%;
+  border: 3px solid #ece8e2;
+}
+
+.text-area {
+  width: 50%;
+}
+
+.img-area3 {
+  margin-top: 10%;
+}
+
+.gallery {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.img-area3 img {
+  width: 100%;
+}
+
+footer {
+  background: #f5f4f2;
+}
+
+footer p {
+  font-family: Bodoni 72;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.text-footer {
+  margin: auto;
+  width: 50%;
+}
