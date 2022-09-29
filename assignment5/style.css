@@ -96,7 +96,7 @@ header {
 
 .content-2 {
   display: flex;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 
 .content-2 h1 {
@@ -147,13 +147,120 @@ header {
   margin-top: 10%;
 }
 
-.gallery {
-  margin-top: 10%;
-  text-align: center;
-}
-
 .img-area3 img {
   width: 100%;
+}
+
+.images-area {
+  margin-top: 100px !important;
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  height: 1050px;
+}
+
+.img {
+  position: absolute;
+  width: 307px;
+  height: 369px;
+  left: 10%;
+  top: 0px;
+}
+
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.gallery img {
+  width: 25%;
+}
+
+.img1 {
+  position: absolute;
+  width: 306px;
+  height: 275px;
+  left: 35%;
+  top: 0px;
+}
+
+.img2 {
+  position: absolute;
+  width: 307px;
+  height: 369px;
+  left: 60%;
+  top: 0px;
+}
+
+.img3 {
+  position: absolute;
+  width: 307px;
+  height: 184px;
+  left: 10%;
+  top: 370px;
+}
+
+.img4 {
+  position: absolute;
+  width: 306px;
+  height: 369px;
+  left: 35%;
+  top: 260px;
+}
+
+.img5 {
+  position: absolute;
+  width: 307px;
+  height: 184px;
+  left: 60%;
+  top: 370px;
+}
+
+.img6 {
+  position: absolute;
+  width: 307px;
+  height: 369px;
+  left: 10%;
+  top: 545px;
+}
+
+.img7 {
+  position: absolute;
+  width: 306px;
+  height: 280px;
+  left: 35%;
+  top: 675px;
+}
+
+.img8 {
+  position: absolute;
+  width: 307px;
+  height: 184px;
+  left: 60%;
+  top: 545px;
+}
+
+.sides {
+  width: 307px;
+  height: 369px;
+}
+
+.center-image {
+  padding-bottom: 45px;
+}
+
+.sides2 {
+  width: 307px;
+  height: 184px;
+}
+
+.center-image2 {
+  width: 306px;
+  height: 369px;
 }
 
 footer {
