@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: url(./assets/2.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+.content-area {
+  border-radius: 10px !important;
+  background-color: #ffff;
+  margin: 15% 5%;
+  border: #ffff;
+  display: flex;
+}
+
+.welcome-area {
+  border-radius: 10px 0px 0px 10px;
+  width: 40%;
+  color: white;
+  background: linear-gradient(180deg, #4b8b7e 0%, #62b594 43.23%, #60b199 100%);
+  padding: 200px 50px;
+  text-align: center;
+}
+
+.welcome-area h1 {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 59px;
+  letter-spacing: 0.04em;
+}
+
+.welcome-area p {
+  margin: 5% 0%;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0.02em;
+}
+
+.welcome-area button {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  margin-top: 10px;
+  background: #5fada100;
+  border: solid 1px white;
+  color: white;
+  border-radius: 118px;
+  width: 30%;
+  height: 42px;
+}
+
+.welcome-area2 {
+  border-radius: 0px 10px 10px 0px;
+  width: 40%;
+  color: white;
+  background: linear-gradient(180deg, #4b8b7e 0%, #62b594 43.23%, #60b199 100%);
+  padding: 200px 50px;
+  text-align: center;
+}
+
+.welcome-area2 h1 {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 59px;
+  letter-spacing: 0.04em;
+}
+
+.welcome-area2 p {
+  margin: 5% 0%;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0.02em;
+}
+
+.welcome-area2 button {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  margin-top: 10px;
+  background: #5fada100;
+  border: solid 1px white;
+  color: white;
+  border-radius: 118px;
+  width: 30%;
+  height: 42px;
+}
+
+.create-area {
+  border-radius: 10px 0px 0px 10px;
+  width: 60%;
+}
+
+.create-area2 {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.social-media-area {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-area img {
+  margin: 0% 2%;
+}
+
+.create-area p {
+  margin: 4% 0px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #c9c9cb;
+}
+
+.create-area h1 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0.05em;
+  margin: 5% 0%;
+  text-align: center;
+  color: #619891 !important;
+}
+
+.form-area input {
+  width: 70% !important;
+  height: 42px;
+  margin: 1% 0px;
+  background: #f8f9fb !important;
+  border: none;
+}
+
+.form-area button {
+  padding: 10px;
+  margin-top: 10px;
+  background: #5fada1;
+  border: none;
+  color: white;
+  border-radius: 118px;
+  width: 30%;
+  height: 42px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.14em;
+}
+
+.form-area button:hover {
+  background: #52857d;
+}
+
+.forgot {
+  color: #858587 !important;
+  text-decoration: underline;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.07em;
+  text-align: left;
+}
