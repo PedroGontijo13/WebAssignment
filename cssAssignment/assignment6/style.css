@@ -18,9 +18,9 @@
   position: absolute;
   height: 158px;
   width: 256px;
-  left: 70%;
+  left: 78%;
   top: 60%;
-  font-family: M PLUS Code Latin;
+  font-family: LionFont, sans-serif;
   font-size: 128px;
   font-weight: 400;
   line-height: 158px;
@@ -29,13 +29,30 @@
   color: #ffff;
 }
 
+.thing {
+    padding: 0px 2%;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./fonts/MPLUSCodeLatin_Expanded-Regular.ttf);
+}
+
+@font-face {
+  font-family: LionFont;
+  src: url(./fonts/MPLUSCodeLatin_Expanded-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Medium.ttf);
+}
+
 #container-banner p {
   position: absolute;
-  height: 49px;
-  width: 220px;
-  left: 75%;
+  left: 79.3%;
   top: 90%;
-  font-family: M PLUS Code Latin;
+  font-family: myFirstFont, sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 49px;
@@ -49,12 +66,13 @@
 
 .content-area h2 {
   padding: 10% 5%;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
+  color: black;
 }
 
 .subtitle-area {
@@ -65,7 +83,7 @@
 
 .content {
   margin: 20px 0px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -82,17 +100,17 @@
 .imgs-area img {
   margin-top: 5% !important;
   border-radius: 18px;
-  width: 286px;
+  min-height: 429px;
 }
 
 .thing {
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
 }
 
 .thing img {
-    margin-left: 20% !important;
+  margin-left: 20% !important;
 }
 
 footer {
