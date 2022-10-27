@@ -12,22 +12,37 @@
       <header>
         <nav>
           <ul>
-            <a href="#"> <li class="lined">Closed-circui</li></a>
-            <a href="#"> <li>History</li></a>
-            <a href="#"> <li>Technology</li></a>
-            <a href="#"> <li>Application</li></a>
+            <a href="#Closed-circui"> <li class="lined">Closed-circui</li></a>
+            <a href="#History"> <li>History</li></a>
+            <a href="#Technology"> <li>Technology</li></a>
+            <a href="#Application"> <li>Application</li></a>
           </ul>
         </nav>
       </header>
       <h2 id="word">security camera</h2>
     </div>
-    <section class="content">
-      <div class="center camera-menu">
-        <img src="./assets/camera_menu_close.png" alt="menu" />
+    <section class="content center">
+      <div id="camera-img" class="camera-menu center2">
+        <img
+          onmouseover="changeImg(this)"
+          onmouseleave="normalImg(this)"
+          style="margin: auto"
+          class="center"
+          src="./assets/camera_menu_close.png"
+          alt="menu"
+        />
+        <div style="margin: auto" class="card">
+          <ul class="center2">
+            <a href="#Closed-circui"> <li>Closed-circui</li></a>
+            <a href="#History"> <li>History</li></a>
+            <a href="#Technology"> <li>Technology</li></a>
+            <a href="#Application"> <li>Application</li></a>
+          </ul>
+        </div>
       </div>
       <div class="content-area">
         <div class="item">
-          <h2 class="title">Closed-circui</h2>
+          <h2 id="Closed-circui" class="title">Closed-circui</h2>
           <p>
             <span style="color: #6093af">Closed-circuit television</span>
             (CCTV), also known as video surveillance, is the use of video
@@ -62,7 +77,7 @@
           <div id="img1" class="img-area center center2"></div>
         </div>
         <div class="item">
-          <h2 class="title">History</h2>
+          <h2 id="History" class="title">History</h2>
           <p>
             An early mechanical CCTV system was developed in June 1927 by
             Russian physicist Léon Theremin (cf. Television in the Soviet
@@ -87,7 +102,7 @@
         </div>
 
         <div>
-          <h2 class="title">Technology</h2>
+          <h2 id="Technology" class="title">Technology</h2>
           <p>
             The earliest video surveillance systems involved constant monitoring
             because there was no way to record and store information. The
@@ -112,7 +127,7 @@
           <div id="img3" class="img-area center center2"></div>
         </div>
         <div class="item">
-          <h2 class="title">Application</h2>
+          <h2 id="Application" class="title">Application</h2>
           <p>
             Closed-circuit television was used as a form of pay-per-view theatre
             television for sports such as professional boxing and professional
@@ -163,5 +178,6 @@
         </div>
       </div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>

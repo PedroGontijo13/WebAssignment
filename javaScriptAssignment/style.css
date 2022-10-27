@@ -24,12 +24,12 @@
   background-size: cover;
 }
 
-ul {
+nav ul {
   display: flex;
   justify-content: space-between;
 }
 
-li {
+nav li {
   padding: 30px !important;
   font-family: SF Pro Display;
   font-size: 16px;
@@ -135,6 +135,7 @@ a:hover {
 
 #img3:hover {
   background-image: url(./assets/photo3.png) !important;
+  background-repeat: no-repeat;
 }
 
 #img2 {
@@ -154,4 +155,24 @@ a:hover {
 }
 
 .card {
+  background: #d9e4ea;
+  border-radius: 9px;
+  padding: 10px;
+  width: 50%;
+  display: none;
+}
+
+.card li {
+  margin: 20px;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6093af;
+}
+
+#camera-img:hover .card {
+  display: block !important;
 }
