@@ -1,0 +1,157 @@
+@font-face {
+  font-family: SF Pro Display;
+  src: url(../fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+
+@font-face {
+  font-family: SF Pro Display Ligth;
+  src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  background-image: url(./assets/The-Best-Home-Security-System-Option\ 1.png);
+  background-color: #cccccc;
+  height: 1440px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  padding: 30px !important;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.camera-menu {
+  width: 20%;
+}
+
+.camera-menu img {
+  height: 192px;
+}
+
+.content-area {
+  width: 80%;
+}
+
+.content {
+  display: flex;
+  margin-top: 60px;
+}
+
+nav {
+  float: left;
+  width: 60%;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+}
+
+#word {
+  font-size: SF Pro Display;
+  position: absolute;
+  width: 440px;
+  height: 76px;
+  left: 83px;
+  top: 45%;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 76px;
+}
+
+.title {
+  font-family: SF Pro Display;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6093af;
+}
+
+.content-area p {
+  margin-top: 30px;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.img-area {
+  margin-top: 5%;
+  height: 531px;
+  width: 797px;
+}
+
+.center2 {
+  margin: 30px auto;
+}
+
+.item {
+  margin: 30px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #6f513f;
+}
+
+#img3 {
+  background-image: url(./assets/Rectangle1.png);
+}
+
+#img3:hover {
+  background-image: url(./assets/photo3.png) !important;
+}
+
+#img2 {
+  background-image: url(./assets/Rectangle.png);
+}
+
+#img2:hover {
+  background-image: url(./assets/phtot2.png) !important;
+}
+
+#img1 {
+  background-image: url(./assets/Rectangle2.png);
+}
+
+#img1:hover {
+  background-image: url(./assets/photo1.png) !important;
+}
+
+.card {
+}
