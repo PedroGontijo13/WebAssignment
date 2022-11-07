@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+body {
+  background-color: black;
+}
+
+#container-banner {
+  position: relative;
+  min-height: 961px;
+  height: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-image: url(../assets/header.png) !important;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 20px 10px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.center p {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.img-area {
+  margin: 3% !important;
+  width: 100% !important;
+}
+
+.sub-title {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-bottom: 1px solid #fff !important;
+}
+
+.card-sub {
+  width: 104px;
+  height: 44px;
+  background: #f3af2d;
+
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sub-title2 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: auto;
+  text-align: center;
+}
+
+.sub-title3 {
+  border-bottom: 1px solid #fff !important;
+  width: 80%;
+}
+
+table {
+  color: #fff;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border-color: black !important;
+  width: 70%;
+  background: #384c68 !important;
+}
+
+th {
+  background: black !important;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: #314055 !important;
+}

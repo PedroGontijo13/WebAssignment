@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#container-banner {
+  position: relative;
+  min-height: 961px;
+  height: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-image: url(./assets/header.png) !important;
+}
+
+#container-banner h1 {
+  position: absolute;
+  height: 158px;
+  width: 256px;
+  left: 78%;
+  top: 60%;
+  font-family: LionFont, sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  line-height: 158px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffff;
+}
+
+.thing {
+    padding: 0px 2%;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./fonts/MPLUSCodeLatin_Expanded-Regular.ttf);
+}
+
+@font-face {
+  font-family: LionFont;
+  src: url(./fonts/MPLUSCodeLatin_Expanded-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Medium.ttf);
+}
+
+#container-banner p {
+  position: absolute;
+  left: 79.3%;
+  top: 90%;
+  font-family: myFirstFont, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content-area {
+  padding: 30px;
+}
+
+.content-area h2 {
+  padding: 10% 5%;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+
+.subtitle-area {
+  width: 202px;
+  height: 61px;
+  background: #f1f1f1;
+}
+
+.content {
+  margin: 20px 0px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.imgs-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgs-area img {
+  margin-top: 5% !important;
+  border-radius: 18px;
+  min-height: 429px;
+}
+
+.thing {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.thing img {
+  margin-left: 20% !important;
+}
+
+footer {
+  padding: 2%;
+  text-align: center !important;
+  color: black;
+  background: #f1f1f1;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
