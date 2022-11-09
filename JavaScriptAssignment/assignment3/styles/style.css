@@ -44,9 +44,8 @@ nav ul li {
   text-align: left;
 }
 
-.img-area {
-  margin: 3% !important;
-  width: 100% !important;
+.img-area img{
+  margin: 2% 2% !important;
 }
 
 .sub-title {
