@@ -1,6 +1,11 @@
-const images = document.getElementsByClassName("img");
-images.onmouseover = function () {
-  images.style.width = "110% !important";
-};
+const img = document.getElementById('title');
 
-images.style.width = "120% !important";
+// 👇️ Change text color on mouseover
+img.addEventListener('mouseover', function handleMouseOver() {
+  img.style.color = 'red';
+});
+
+// 👇️ Change text color back on mouseout
+img.addEventListener('mouseout', function handleMouseOut() {
+  img.style.color = 'black';
+});
