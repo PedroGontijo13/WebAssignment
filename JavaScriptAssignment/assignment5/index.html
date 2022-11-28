@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="center">
+      <div class="form-card-area">
+        <p>Go to Mars!</p>
+        <div class="center">
+          <form action="">
+            <div class="field">
+              <input
+                type="text"
+                name="fullname"
+                id="fullname"
+                placeholder="Username"
+              />
+              <label for="fullname">Name</label>
+            </div>
+            <div class="field">
+              <input
+                type="family"
+                name="family"
+                id="family"
+                placeholder="Family name"
+              />
+              <label for="family">Family</label>
+            </div>
+            <div class="field">
+              <input type="age" name="age" id="age" placeholder="Age" />
+              <label for="age">Age</label>
+            </div>
+            <div class="field destination-title">
+              <label for="destination">Destination</label>
+            </div>
+            <div class="field destination">
+              <select id="destination">
+                <option label="Mars">Mars</option>
+                <option label="Jupiter">Jupiter</option>
+                <option label="Moon">Moon</option>
+              </select>
+            </div>
+            <button id="btn-submit" class="text-center" type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
